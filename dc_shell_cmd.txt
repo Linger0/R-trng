@@ -1,0 +1,755 @@
+ acs_get_parent_partition # Get the partition that contains this design
+ acs_report_user_messages # Print diagnostics summary of all issued user messages
+ add_ldb_views        # add views to specified view-based db library
+ add_module           # find design or library objects
+ add_pg_pin_to_db     # Run add_pg_pin_to_db to convert non-pg_pin based db to pg_pin based db
+ add_pg_pin_to_lib    # Run add_pg_pin_to_lib to convert non-pg_pin based .lib to pg_pin based .lib
+ add_port_state       # add_port_state
+ add_power_state      # add_power_state
+ add_pst_state        # add_pst_state
+ alib_analyze_libs    # analyzes target_library to create alib files
+ all_active_scenarios # list of defined scenarios
+ all_clock_gates      # create a collection of clock gating cells or pins
+ all_clocks           # return all clocks in the current design
+ all_connected        # return objects connected to a net, port, or pin
+ all_critical_cells   # return critical cells
+ all_critical_pins    # return critical pins
+ all_designs          # return all designs
+ all_fanin            # return pins or cells in transitive fanin
+ all_fanout           # return pins or cells in transitive fanout
+ all_inputs           # return input ports
+ all_isolation_cells  # Returns all isolation cells
+ all_level_shifters   # Returns all level shifter cells
+ all_outputs          # return output ports
+ all_registers        # create a collection of register cells or pins
+ all_scenarios        # list of defined scenarios
+ all_test_modes       # List all test modes in a model
+ all_upf_repeater_cells # Returns all UPF repeater cells
+ analyze              # analyze hdl files
+ analyze_datapath_extraction # analyze_datapath_extraction
+ analyze_dw_power     # analyze_dw_power
+ analyze_library      # analyze libraries
+ analyze_minpwr_library # analyze_minpwr_library
+ analyze_mv_design    # Analyze MV Design
+ analyze_rtl_congestion # analyze rtl congestion
+ apply_clock_gate_latency # Spread and annotate clock latencies on the existing clock gates
+ associate_supply_set # associate_supply_set
+ balance_buffer       # balance buffer
+ balance_registers    # balance_registers
+ capture_app_var      # Setup options for compile icc2 spg mode.
+ cell_of              # return cell of pins
+ change_link          # changes the design to which a cell is linked
+ change_names         # change_names
+ characterize         # characterize constraints for a subdesign
+ check_bindings       # check_binding
+ check_block_abstraction # Check block usage
+ check_bsd            # Run Compliance Check
+ check_budget         # Set check for any fixed or user budgets that violates the constraints
+ check_design         # check design
+ check_error          # check_error
+ check_implementations # check_implementation
+ check_library        # check: (1) logic vs. physical libraries, (2) physical library, (3) logic vs. logic libraries
+ check_license        # check_license
+ check_mv_design      # check mv design
+ check_scan_def       # check the scan def file for connectivity
+ check_synlib         # check_synlib
+ check_target_library_subset # check_target_library_subset
+ check_timing         # check timing
+ check_upf            # check for UPF reference errors in a hierarchical-flow design
+ clean_buffer_tree    # clean buffer tree
+ compare_delay_calculation # compare_delay_calculation
+ compare_lib          # compare libraries
+ compile              # compile design
+ compile_mcl          # Compiles an MCL file
+ compile_prefer_runtime # compile_prefer_runtime
+ compile_ultra        # compile design
+ connect_logic_net    # connects a logic net to one or more logic ports
+ connect_net          # connect net
+ connect_pin          # connect pin
+ connect_supply_net   # connect_supply_net
+ convert_db           # convert a non view-based db to view-based db
+ convert_pg           # convert_pg
+ copy_design          # copy_design
+ cputime              # main process cpu time
+ create_bsd_patterns  # Create bsd patterns
+ create_bus           # create_bus
+ create_cache         # create_cache
+ create_cell          # create cell
+ create_clock         # create clock
+ create_design        # create design
+ create_dft_netlist   # Write DFT netlist
+ create_generated_clock # create generated clock
+ create_logic_net     # creates a logic net in the active scope
+ create_logic_port    # creates a logic port in the active scope
+ create_multibit      # create_multibit
+ create_net           # create net
+ create_operating_conditions # find design or library objects
+ create_port          # create port
+ create_power_domain  # create_power_domain
+ create_power_state_group # create_power_state_group
+ create_power_switch  # create_power_switch
+ create_pst           # create_pst
+ create_scenario      # create new scenario
+ create_supply_net    # create_supply_net
+ create_supply_port   # create_supply_port
+ create_supply_set    # create_supply_set
+ create_test_protocol # Generate test protocol information
+ create_wire_load     # create wire load
+ cross_probing_filter # Filter objects based on filename and line number
+ current_design       # set current_design
+ current_design_name  # get the current design name
+ current_dft_partition # set current dft partition
+ current_instance     # set current instance
+ current_scenario     # set current scenario
+ current_test_mode    # set current test mode
+ dc_allocate_budgets  # Performs timing budget on specified cells
+ define_design_lib    # hdl define design lib
+ define_dft_design    # define the dft design
+ define_dft_partition # Create a new dft partition
+ define_name_maps     # define_name_maps
+ define_name_rules    # define name rule
+ define_scaling_lib_group # define_scaling_lib_group
+ define_test_mode     # Create a new test mode
+ define_user_attribute # define a new attribute
+ delete_operating_conditions # find design or library objects
+ derive_constraints   # derive_constraints
+ dft_drc              # Run Test Design Rule Checking
+ disconnect_net       # disconnect net
+ drive_of             # drive of
+ duplicate_logic      # duplicate_logic
+ elaborate            # elaborate
+ enable_write_lib_mode # sets the write_lib mode of the tool
+ filter               # filter objects with expression
+ find                 # find design or library objects
+ find_objects         # returns list of object names
+ generate_mv_constraints # generate_mv_constraints
+ get_alternative_lib_cells # create a collection of equivalent cells
+ get_always_on_logic  # Returns cells and nets on always on paths
+ get_attribute        # get attribute values
+ get_buffers          # create a collection of buffer cells from library
+ get_cells            # create a collection of cells
+ get_clocks           # create a collection of design clocks
+ get_cross_probing_info # get source information for objects
+ get_design_lib_path  # hdl get design lib path
+ get_designs          # create a collection of designs
+ get_dont_touch_cells # create a collection of dont_touch cells
+ get_dont_touch_nets  # create a collection of dont_touch nets
+ get_flat_cells       # create a collection of leaf cells using full name matching in the current design
+ get_flat_nets        # create a collection of top-level nets using full name matching in the current design
+ get_flat_pins        # create a collection of pins of leaf cells using full name matching in the current design
+ get_generated_clocks # create a collection of generated clocks
+ get_latch_loop_groups # get_latch_loop_groups
+ get_lib_attribute    # find library objects
+ get_lib_cells        # create a collection of library cells
+ get_lib_pins         # create a collection of library cell pins
+ get_libs             # create a collection of libraries
+ get_license          # Get licenses for the specified features
+ get_multibits        # create a collection of multibits
+ get_nets             # create a collection of nets
+ get_object_name      # get full_name of an object
+ get_path_groups      # create a collection of path groups
+ get_pins             # create a collection of pins
+ get_ports            # create a collection of ports
+ get_power_domains    # create a collection of power domains
+ get_power_switches   # create a collection of power switches
+ get_references       # create a collection of designs and/or libcells
+ get_related_supply_net # related supply net of DC pins
+ get_scan_cell_names  # list of scan cells for a mode
+ get_scan_chain_names # list of scan cells for a mode
+ get_shift_register_chains # create a list of collections of Shift Register cells
+ get_supply_nets      # create a collection of supply nets
+ get_supply_ports     # create a collection of supply ports
+ get_timing_paths     # get timing paths
+ get_zero_interconnect_delay_mode # get_zero_interconnect_delay_mode
+ group                # create new hierarchy
+ group_path           # group path
+ identify_clock_gating # identify_clock_gating
+ infer_switching_activity # preset switching activity annotation on special pins
+ insert_buffer        # Insert buffer cells
+ insert_clock_gating  # insert_clock_gating
+ insert_dft           # Run Scan Insertion Only
+ insert_isolation_cell # Add isolation cells
+ insert_mv_cells      # Inserts mv cells to the design
+ lib2saif             # generate library forward SAIF file
+ license_users        # List users using licenses
+ link                 # link current design
+ list_attributes      # list attribute definitions
+ list_designs         # list_designs
+ list_dont_touch_types # List dont_touch reasons
+ list_files           # list_files
+ list_hdl_blocks      # list hdl blocks
+ list_instances       # list instances
+ list_libs            # list libraries
+ list_licenses        # List licenses in use by this process
+ list_size_only_types # List size_only reasons
+ list_test_models     # List all designs with test models
+ list_test_modes      # List all test modes in a model
+ load_of              # load_of 
+ map_isolation_cell   # map_isolation_cell
+ map_level_shifter_cell # map_level_shifter_cell
+ map_power_switch     # map_power_switch
+ map_retention_cell   # map_retention_cell
+ mem                  # show main process memory usage
+ merge_saif           # merge SAIF files
+ name_format          # name_format
+ optimize_netlist     # Optimize netlist for area
+ optimize_registers   # optimize_registers
+ parallel_execute     # execute parallel report block
+ preview_dft          # Run Scan Architect Only
+ propagate_constraints # propagate_constraints
+ propagate_switching_activity # propagating power switching activity
+ push_down_model      # push down model
+ query_cell_instances # returns a list of cell names
+ query_cell_mapped    # returns the name of mapped cell
+ query_map_power_switch # returns the map power switch details
+ query_net_ports      # returns list of port names
+ query_objects        # display collection contents
+ query_port_net       # returns the name of connected net
+ query_port_state     # returns the supply port state details
+ query_power_switch   # returns the power switch details
+ query_pst            # returns the power state table details
+ query_pst_state      # returns the pst state details
+ read_bsdl            # Read bsdl
+ read_file            # read file from disk
+ read_lib             # read a library
+ read_ocvm            # read aocvm
+ read_parasitics      # Read net parasitics information from an SPEF file.
+ read_pin_map         # read in the pinmap
+ read_saif            # read backward SAIF file
+ read_scan_def        # read scan def file and annotate scan chains
+ read_sdf             # read sdf
+ read_test_model      # Read a test model from disk
+ read_test_protocol   # Read a test protocol from disk
+ redirect             # Redirect output of a command to a file
+ remove_annotated_check # remove annotated check
+ remove_annotated_delay # remove annotated delay
+ remove_annotated_transition # remove_annotated_transition
+ remove_annotations   # remove_annotations
+ remove_attribute     # remove attribute values
+ remove_boundary_cell # remove boundary cell
+ remove_boundary_cell_io # remove the boundary cell ios
+ remove_bsd_ac_port   # remove the bsd ac ports
+ remove_bsd_compliance # remove bsd compliance
+ remove_bsd_instruction # remove bsd instruction specification
+ remove_bsd_linkage_port # remove the bsd linkage ports
+ remove_bsd_power_up_reset # remove the bsd power up reset
+ remove_buffer        # Remove buffer cells
+ remove_bus           # remove_bus
+ remove_cache         # remove_cache
+ remove_case_analysis # case analysis
+ remove_cell          # remove cell
+ remove_cell_degradation # remove cell_degradation
+ remove_clock         # remove clock
+ remove_clock_gating  # remove_clock_gating
+ remove_clock_gating_check # remove clock_gating_check
+ remove_clock_gating_style # remove_clock_gating_style
+ remove_clock_groups  # remove clock_groups
+ remove_clock_latency # remove clock_latency
+ remove_clock_sense   # remove_clock_sense
+ remove_clock_transition # remove clock_transition
+ remove_clock_uncertainty # remove clock_uncertainty
+ remove_constraint    # remove_constraint
+ remove_data_check    # remove_data_check
+ remove_design        # remove designs
+ remove_dft_clock_gating_pin # Remove DFT clock gating pin specification
+ remove_dft_connect   # Remove existing dft connectivity specification
+ remove_dft_design    # remove the dft design
+ remove_dft_equivalent_signals # Remove dft signal equivalents specified
+ remove_dft_location  # remove a dft hierarchy location specification
+ remove_dft_partition # remove dft partition
+ remove_dft_power_control # Remove existing reference to power controller
+ remove_dft_signal    # remove the dft signal type for a set of signals
+ remove_disable_clock_gating_check # remove_disable_clock_gating_check
+ remove_disable_timing # remove_disable timing
+ remove_dp_int_round  # remove dp internal round
+ remove_driving_cell  # remove driving cell
+ remove_fanout_load   # remove fanout_load
+ remove_generated_clock # remove generated clock
+ remove_host_options  # Remove parameters for distributed processing
+ remove_ideal_latency # remove_ideal_latency
+ remove_ideal_net     # remove_ideal_net
+ remove_ideal_network # remove_ideal_network
+ remove_ideal_transition # remove_ideal_transition
+ remove_input_delay   # remove input_delay
+ remove_isolate_ports # remove_isolate_ports
+ remove_isolation_cell # Remove isolation cells
+ remove_ldb_views     # remove views from specified view-based db library
+ remove_level_shifters # Remove existing level shifters
+ remove_link_library_subset # remove_link_library_subset
+ remove_min_pulse_width # remove min_pulse_width
+ remove_multibit      # remove_multibit
+ remove_net           # remove net
+ remove_ocvm          # Remove AOCVM data
+ remove_output_delay  # remove output_delay
+ remove_path_group    # remove path group
+ remove_pin_map       # remove the pin map package specification
+ remove_pin_name_synonym # delete pin name synonym
+ remove_port          # remove port
+ remove_power_domain  # remove_power_domain
+ remove_propagated_clock # remove_propagated_clock
+ remove_rtl_load      # remove_rtl_load
+ remove_scaling_lib_group # remove_scaling_lib_group
+ remove_scan_group    # remove a scan group specification
+ remove_scan_link     # Remove the scan link options for wires and lock-up latches
+ remove_scan_path     # remove a scan path specification
+ remove_scan_register_type # set scan register type
+ remove_scan_replacement # remove scan replacement
+ remove_scan_skew_group # remove a scan skew group specification
+ remove_scan_suppress_toggling # remove existing scan suppress toggling specification
+ remove_scenario      # remove scenario
+ remove_sdc           # remove_sdc
+ remove_target_library_subset # remove_target_library_subset
+ remove_test_assume   # Remove assumed values on pins for test purposes
+ remove_test_mode     # Create a new test mode
+ remove_test_model    # Remove the test model for a design
+ remove_test_point_element # remove User-Defined Test Point elements
+ remove_test_power_modes # remove existing set_test_power_modes specification
+ remove_test_protocol # Read a test protocol from disk
+ remove_unconnected_ports # remove_unconnected_ports
+ remove_upf           # remove_upf
+ remove_user_attribute # remove attribute values
+ remove_verification_priority # remove_verification_priority
+ remove_wire_load_min_block_size # remove wire load min block size
+ remove_wire_load_model # remove wire load model
+ remove_wire_load_selection_group # remove wire load selection group
+ rename_design        # rename_design
+ reoptimize_design    # reoptimize_design
+ replace_clock_gates  # replace_clock_gates
+ replace_synthetic    # replace_synthetic
+ report_annotated_check # report annotated check
+ report_annotated_delay # report annotated delay
+ report_annotated_transition # report annotated transition
+ report_area          # report area
+ report_attribute     # report attribute
+ report_auto_ungroup  # report auto ungroup
+ report_autofix_configuration # report autofix configuration
+ report_autofix_element # report autofix element
+ report_background_jobs # report jobs submited via background_execute
+ report_bist_configuration # report logic bist configuration for a mode
+ report_block_abstraction # Report blocks with abstraction
+ report_boundary_cell # report boundary cell
+ report_boundary_cell_io # report boundary cell io
+ report_bsd_ac_port   # report bsd ac port
+ report_bsd_buffers   # report bsd buffers
+ report_bsd_compliance # report bsd compliance
+ report_bsd_configuration # report bsd ac port
+ report_bsd_instruction # report bsd instruction
+ report_bsd_linkage_port # report bsd linkage port
+ report_bsd_patterns  # report bsd patterns
+ report_bsd_power_up_reset # report bsd power up reset
+ report_buffer_tree   # report buffer tree
+ report_buffer_tree_qor # report quality of buffer tree(s)
+ report_bus           # report_bus
+ report_cache         # report_cache
+ report_case_analysis # report case analysis
+ report_cell          # report cell
+ report_cell_mode     # report cell mode
+ report_check_library_options # report options set by set_check_library_options
+ report_clock         # report clock
+ report_clock_gating  # report clock gating
+ report_clock_gating_check # report clock gating check
+ report_clock_timing  # report clock timing
+ report_clock_tree    # report clocktree
+ report_compile_options # report_compile_options
+ report_compile_spg_mode # Report options changed by compile icc2 spg mode.
+ report_constraint    # report constraint
+ report_cross_probing # Report source information for objects
+ report_cross_probing_files # prints out a report of cross probing files
+ report_crpr          # report crpr
+ report_datapath_gating # report datapath gating information
+ report_delay_calculation # report delay_calculation
+ report_design        # report design
+ report_design_lib    # hdl report design lib
+ report_design_mismatch # report netlist mismatches
+ report_dft_clock_controller # report dft clock controller configuration for a mode
+ report_dft_clock_gating_configuration # Report existing DFT clock gating Specification(s)
+ report_dft_clock_gating_pin # Report existing DFT clock gating Specification(s)
+ report_dft_configuration # report dft configuration
+ report_dft_connect   # Report existing DFT Connectivity Specification(s)
+ report_dft_design    # report the dft designs
+ report_dft_drc_rules # Report the DFT DRC rules configuration
+ report_dft_drc_violations # Report dft drc violations
+ report_dft_equivalent_signals # Report all equivalents signals specified
+ report_dft_fabric_configuration # report wrapper configuration
+ report_dft_insertion_configuration # report insert_dft configuration
+ report_dft_location  # report a dft hierarchy location specification
+ report_dft_partition # report dft partition
+ report_dft_power_control # report on existing set_dft_power_control specification
+ report_dft_signal    # report dft signal for a mode
+ report_direct_power_rail_tie # report_direct_power_rail_tie
+ report_disable_timing # Report disabled timing arcs
+ report_dont_touch    # report dont_touch
+ report_dp_smartgen_options # report_dp_smartgen_options
+ report_fsm           # report_fsm
+ report_hierarchy     # report hierarchy
+ report_host_options  # Report parameters for distributed processing
+ report_ideal_network # report_ideal_network
+ report_ieee_1500_configuration # reset ieee 1500 configuration
+ report_inbound_cell  # report inbound_cell
+ report_interclock_relation # report interclock relation
+ report_internal_loads # report_internal_loads
+ report_isolate_ports # report_isolate_ports
+ report_isolation_cell # report_isolation_cell
+ report_latch_loop_groups # report_latch_loop_groups
+ report_level_shifter # report_level_shifter
+ report_lib           # find design or library objects
+ report_link_library_subset # report_link_library_subset
+ report_logicbist_configuration # report LogicBIST configuration for a mode
+ report_min_pulse_width # report min clock pulse width
+ report_mode          # report cell mode
+ report_multibit      # report_multibit
+ report_multibit_banking # report_multibit_banking
+ report_mv_library_cells # report all MV cells available in the target libraries
+ report_name_rules    # report_name_rules
+ report_names         # report_names
+ report_net           # report net
+ report_net_fanout    # report net_fanout
+ report_ocvm          # Report AOCV/POCV information
+ report_opcond_inference # report_opcond_inference
+ report_operating_conditions # find design or library objects
+ report_partitions    # Report the partitions of the current design
+ report_path_budget   # report budget
+ report_path_group    # report path_group
+ report_pin_map       # report pin map
+ report_pin_name_synonym # report pin name synonyms
+ report_pipeline_scan_data_configuration # report Pipeline Scan Data configuration
+ report_port          # report port
+ report_power         # display power report
+ report_power_calculation # report_power_calculation
+ report_power_domain  # report_power_domain
+ report_power_gating  # report_power_gating
+ report_power_pin_info # report_power_pin_info
+ report_power_switch  # report_power_switch
+ report_pst           # report_pst
+ report_qor           # report QOR
+ report_reference     # report reference
+ report_resources     # report resources
+ report_retention_cell # report_retention_cell
+ report_retention_clamp_cell # report_retention_clamp_cell
+ report_saif          # report switching activity information
+ report_scaling_lib_group # report_scaling_lib_group
+ report_scan_cell_set # report scan cell set
+ report_scan_compression_configuration # report scan compression configuration for a mode
+ report_scan_configuration # report scan configuration for a mode
+ report_scan_group    # report scan group for a mode
+ report_scan_link     # Report the scan link options for wires and lock-up latches
+ report_scan_path     # report scan path for a mode
+ report_scan_register_type # report scan register type specified
+ report_scan_replacement # report scan replacement table
+ report_scan_skew_group # report scan skew group
+ report_scan_state    # report can state of the design
+ report_scan_suppress_toggling # report on existing scan flop power gating specification
+ report_scenarios     # report scenario setup information for scenarios
+ report_serialize_configuration # report serialize configuration for a mode
+ report_size_only     # report size_only
+ report_streaming_compression_configuration # report streaming configuration for a mode
+ report_supply_net    # report_supply_net
+ report_supply_port   # report_supply_port
+ report_synlib        # report_synlib
+ report_target_library_subset # report_target_library_subset
+ report_test_assume   # report test assume for a mode
+ report_test_model    # Report on a test model for a desgn
+ report_test_point_configuration # report test point configuration
+ report_test_point_element # report test point element
+ report_test_power_modes # report on existing set_test_power_modes specification
+ report_testability_configuration # report testability configuration
+ report_threshold_voltage_group # report_threshold_voltage_group
+ report_timing        # report timing
+ report_timing_derate # report_derate
+ report_timing_requirements # report timing_requirements
+ report_transitive_fanin # report transitive_fanin
+ report_transitive_fanout # report mode
+ report_use_test_model # List all designs with use test model flags
+ report_wire_load     # report wire_load
+ report_wrapper_configuration # report wrapper configuration
+ report_write_lib_mode # tells whether the write_lib mode of the tool is enabled or not
+ reset_autofix_configuration # remove an Autofix configuration
+ reset_autofix_element # remove an Autofix element
+ reset_bsd_configuration # reset the bsd configuration
+ reset_cell_mode      # reset cell mode
+ reset_clock_gate_latency # Remove clock latency from CG cells and reset values specified by set_clock_gate_latency
+ reset_design         # reset design
+ reset_dft_clock_controller # remove dft clock controller specification
+ reset_dft_clock_gating_configuration # Reset DFT clock gating configuration
+ reset_dft_configuration # reset the dft configuration
+ reset_dft_drc_rules  # Reset the DFT DRC rules configuration
+ reset_dft_insertion_configuration # reset the insert dft configuration
+ reset_ieee_1500_configuration # reset ieee 1500 configuration
+ reset_logicbist_configuration # reset a LogicBIST configuration
+ reset_mode           # reset cell mode
+ reset_path           # reset path
+ reset_pipeline_scan_data_configuration # reset a scan compression configuration
+ reset_scan_compression_configuration # reset a scan compression configuration
+ reset_scan_configuration # define a scan configuration
+ reset_serialize_configuration # reset serialize configuration
+ reset_streaming_compression_configuration # reset streaming configuration
+ reset_switching_activity # reset switching activity and/or max toggle rate
+ reset_test_mode      # reset current test mode
+ reset_test_point_configuration # Remove test point configuration
+ reset_testability_configuration # remove an Testability configuration
+ reset_timing_derate  # reset_timing_derate
+ reset_wrapper_configuration # reset wrapper configuration
+ rewire_clock_gating  # rewire_clock_gating
+ saif_map             # SAIF name mapping handling
+ save_upf             # save_upf
+ set_active_scenarios # specifies set of active scenarios
+ set_always_on_strategy # set_always_on_strategy
+ set_annotated_check  # set annotated check
+ set_annotated_delay  # set annotated delay
+ set_annotated_transition # set annotated transition
+ set_attribute        # set attribute values
+ set_auto_disable_drc_nets # set_auto_disable_drc_nets
+ set_auto_ideal_nets  # set_auto_ideal_nets
+ set_autofix_configuration # define an Autofix configuration
+ set_autofix_element  # define Autofix elements
+ set_balance_registers # set_balance_registers
+ set_boundary_cell    # define boundary cell
+ set_boundary_cell_io # set_boundary_cell_io of the boundary cell
+ set_boundary_optimization # set_boundary_optimization
+ set_bsd_ac_port      # define the bsd ac ports
+ set_bsd_compliance   # set bsd compliance
+ set_bsd_configuration # define the bsd configuration
+ set_bsd_instruction  # define the bsd configuration
+ set_bsd_linkage_port # set bsd linkage ports
+ set_bsd_power_up_reset # Set bsd power up reset
+ set_case_analysis    # case analysis
+ set_cell_degradation # set cell_degradation
+ set_cell_internal_power # set_cell_internal_power
+ set_cell_mode        # set cell mode
+ set_check_library_options # set options for logic and physical library checking by check_library
+ set_clock_gate_latency # Specifies clock latency values to be applied to CG for each CG stage and fanout range
+ set_clock_gating_check # set clock_gating_check
+ set_clock_gating_enable # Controls signals to be used as clock gating enable
+ set_clock_gating_objects # set_clock_gating_objects
+ set_clock_gating_registers # set_clock_gating_registers
+ set_clock_gating_style # set_clock_gating_style
+ set_clock_groups     # set clock groups
+ set_clock_latency    # set clock_latency
+ set_clock_sense      # set clock_sense
+ set_clock_transition # set clock_transition
+ set_clock_uncertainty # set clock_uncertainty
+ set_combinational_type # set_combinational_type
+ set_compile_directives # set compile_directives
+ set_compile_partitions # Partitions the current design
+ set_compile_spg_mode # Setup options for compile icc2 spg mode.
+ set_connection_class # set_connection_class
+ set_context_margin   # Specifies the margin by which to tighten or relax constraints.
+ set_cost_priority    # set cost priority
+ set_critical_range   # set critical_range
+ set_data_check       # set_data_check
+ set_datapath_gating_options # set the options for datapath gating
+ set_datapath_optimization_effort # set datapath_optimization_effort
+ set_default_drive    # set_default_drive
+ set_default_driving_cell # set_default_driving_cell 
+ set_default_fanout_load # set_default_fanout_load
+ set_default_input_delay # set_default_input_delay
+ set_default_load     # set_default_load
+ set_default_output_delay # set_default_output_delay
+ set_design_attributes # set_design_attributes
+ set_design_license   # set design license for current design
+ set_design_top       # specify the top-level design instance
+ set_dft_clock_controller # set dft clock controller for a mode
+ set_dft_clock_gating_configuration # Specify clock gating configuration specification
+ set_dft_clock_gating_pin # Specify clock gating configuration specification
+ set_dft_configuration # define the dft configuration
+ set_dft_connect      # Specify a list of typed DFT connectivity associations
+ set_dft_drc_configuration # Specify the dft drc configuration
+ set_dft_drc_rules    # Specify the DFT DRC rules configuration
+ set_dft_equivalent_signals # Define equivalent signals 
+ set_dft_fabric_configuration # define the scan compression configuration
+ set_dft_insertion_configuration # define the insert dft configuration
+ set_dft_location     # define a dft hierarchy location
+ set_dft_power_control # Specify a power controller cell instance name
+ set_dft_signal       # define the dft signal type for a set of signals
+ set_direct_power_rail_tie # set_direct_power_rail_tie
+ set_disable_clock_gating_check # set_disable_clock_gating_check
+ set_disable_timing   # disable timing
+ set_domain_supply_net # set_domain_supply_net
+ set_dont_retime      # set dont_retime
+ set_dont_touch       # set dont_touch
+ set_dont_touch_network # set dont_touch_network
+ set_dont_use         # set_dont_use
+ set_dp_int_round     # set dp internal round
+ set_dp_smartgen_options # set_dp_smartgen_options
+ set_drive            # set drive
+ set_driving_cell     # set driving cell
+ set_dynamic_optimization # sets the dynamic optimization option (single-mode only) for the current design
+ set_equal            # set ports equal
+ set_equivalent       # declare that supplies are equivalent
+ set_false_path       # set false_path
+ set_fanout_load      # set fanout_load
+ set_fix_hold         # set fix_hold
+ set_fix_multiple_port_nets # set_fix_multiple_port_nets
+ set_flatten          # set_flatten
+ set_fsm_encoding     # set_fsm_encoding
+ set_fsm_encoding_style # set_fsm_encoding_style
+ set_fsm_minimize     # set_fsm_minimize
+ set_fsm_order        # set_fsm_order
+ set_fsm_preserve_state # set_fsm_preserve_state
+ set_fsm_state_vector # set_fsm_state_vector
+ set_host_options     # Set parameters for distributed processing
+ set_ideal_latency    # set_ideal_latency
+ set_ideal_net        # set_ideal_net
+ set_ideal_network    # set_ideal_network
+ set_ideal_transition # set_ideal_transition
+ set_ieee_1500_configuration # define ieee 1500 configuration
+ set_impl_priority    # set_impl_priority
+ set_implementation   # set_implementation
+ set_input_delay      # set input_delay
+ set_input_transition # set input transition
+ set_isolate_ports    # set_isolate_ports
+ set_isolation        # Specify an isolation strategy
+ set_isolation_control # Specify a isolation control
+ set_latch_loop_breakers # set_latch_loop_breakers
+ set_lbist_configuration # Set lbist configuration
+ set_leakage_optimization # sets the leakage optimization option (single-mode only) for the current design
+ set_leakage_power_model # sets a leakage power model on the current design
+ set_level_shifter    # Specify a level shifter strategy
+ set_lib_attribute    # find library objects
+ set_libcell_dimensions # Set the dimensions of a library cell
+ set_libpin_location  # Set pin location
+ set_link_library_subset # set_link_library_subset
+ set_load             # set load
+ set_local_link_library # set_local_link_library
+ set_logic_dc         # set logic_dc
+ set_logic_one        # set logic_one
+ set_logic_zero       # set logic_zero
+ set_logicbist_configuration # define the scan self-test configuration
+ set_map_only         # set map_only
+ set_max_area         # set max_area
+ set_max_capacitance  # set max_capacitance
+ set_max_delay        # set max_delay
+ set_max_dynamic_power # set max dynamic power constraint
+ set_max_fanout       # set max_fanout
+ set_max_leakage_power # set max leakage power constraint
+ set_max_time_borrow  # set max_time_borrow
+ set_max_transition   # set max_transition
+ set_message_severity # define the bsd configuration
+ set_min_capacitance  # set min_capacitance
+ set_min_delay        # set min_delay
+ set_min_library      # set min_library
+ set_min_pulse_width  # set min pulse width
+ set_minimize_tree_delay # set_minimize_tree_delay
+ set_mode             # set cell mode
+ set_model_drive      # set_model_drive
+ set_model_load       # set_model_load
+ set_model_map_effort # set_model_map_effort
+ set_multi_vth_constraint # sets the max vth constraint on the current design
+ set_multibit_options # set_multibit_options
+ set_multicycle_path  # set multicycle_path
+ set_opcond_inference # set_opcond_inference
+ set_operating_conditions # set operating conditions
+ set_opposite         # set ports opposite
+ set_optimize_registers # set_optimize_registers
+ set_output_clock_port_type # set_output_clock_port_type
+ set_output_delay     # set output_delay
+ set_partial_on_translation # set_partial_on_translation
+ set_path_margin      # set multicycle_path
+ set_pin_name_synonym # define pin name synonym
+ set_pipeline_scan_data_configuration # define the pipeline scan data configuration
+ set_port_attributes  # set_port_attributes
+ set_port_fanout_number # set_port_fanout_number
+ set_port_location    # Set port location
+ set_power_clock_scaling # set clock frequency scaling parameters
+ set_prefer           # set_prefer
+ set_preserve_clock_gate # set pwr_cg_preservation_type
+ set_propagated_clock # set propagated_clock
+ set_query_rules      # define the rules for rule-based queries
+ set_register_merging # set_register_merging
+ set_register_output_inversion # set_register_output_inversion
+ set_register_replication # set_register_replication
+ set_register_type    # set_register_type
+ set_related_supply_net # set_related_supply_net
+ set_replace_clock_gates # set_replace_clock_gates
+ set_resistance       # set annotated lumped net resistance
+ set_resource_allocation # set_resource_allocation
+ set_retention        # set_retention
+ set_retention_control # set_retention_control
+ set_retention_control_pins # set_retention_control_pins
+ set_retention_elements # set_retention_elements
+ set_rtl_load         # set_rtl_load
+ set_scaling_lib_group # set_scaling_lib_group
+ set_scan_compression_configuration # define the scan compression configuration
+ set_scan_configuration # define a scan configuration
+ set_scan_element     # set scan_element
+ set_scan_group       # define a scan group
+ set_scan_link        # define the scan link options for wires and lock-up latches
+ set_scan_path        # define a scan path
+ set_scan_register_type # set scan register type
+ set_scan_replacement # set scan replacement 
+ set_scan_skew_group  # define a skew group
+ set_scan_state       # set scan state
+ set_scan_suppress_toggling # specify a list of flops whose functional outputs are to be power gated
+ set_scope            # set_scope
+ set_serialize_configuration # define the serialize configuration
+ set_size_only        # set size_only
+ set_streaming_compression_configuration # define the streaming configuration
+ set_structure        # set structure
+ set_svf              # Setup verification for Formality
+ set_switching_activity # set switching activity annotation
+ set_switching_activity_profile # set switching activity profile
+ set_synlib_dont_get_license # set_synlib_dont_get_license
+ set_tap_elements     # set tap elements
+ set_target_library_subset # set_target_library_subset
+ set_test_assume      # specify assumed values on pins for test purposes
+ set_test_point_configuration # Define test point configuration
+ set_test_point_element # define user-defined test points (UDTPs)
+ set_test_power_modes # specify a list of PST power states to be used as test modes
+ set_testability_configuration # Define Testability configuration
+ set_timing_derate    # set_timing_derate
+ set_timing_ranges    # set timing range
+ set_transform_for_retiming # set_transform_for_retiming
+ set_unconnected      # set unconnected
+ set_ungroup          # set ungroup
+ set_uninitialized_register_value # set_uninitialized_register_value
+ set_upf_query_options # set_upf_query_options
+ set_user_attribute   # set attribute values
+ set_user_budget      # Set user-defined budgeting information
+ set_verification_priority # set_verification_priority
+ set_voltage          # set_voltage
+ set_vsdc             # Record setup information for formal verification
+ set_wire_load        # set wire load
+ set_wire_load_min_block_size # set wire load min block size
+ set_wire_load_mode   # set wire load mode
+ set_wire_load_model  # set wire load model
+ set_wire_load_selection_group # set wire load selection group
+ set_wrapper_configuration # define wrapper configuration
+ set_zero_interconnect_delay_mode # set_zero_interconnect_delay_mode
+ shell_is_in_exploration_mode # Check if it is de_shell.
+ shell_is_in_topographical_mode # Check if dc_shell is in topographical_mode.
+ shell_is_in_xg_mode  # Check if dc_shell is in xg_mode.
+ simplify_constants   # simplify constants
+ size_cell            # Resize the cell
+ streaming_dft_planner # Generate DFT planner report for streaming compression
+ sub_designs_of       # Get the sub designs according to the options
+ sub_instances_of     # Get the sub instances according to the options
+ translate            # translate design
+ ungroup              # ungroup hierarchy
+ uniquify             # uniquify multiply instantiated designs
+ update_cross_probing_files # Update cross-probing file paths
+ update_lib           # find design or library objects
+ update_timing        # update timing
+ upf_version          # upf_version
+ use_test_model       # define a test model configuration
+ write                # write designs to file
+ write_bsd_rtl        # Write bsd rtl
+ write_bsdl           # Write bsdl
+ write_design_lib_paths # hdl get design lib path
+ write_environment    # write_environment
+ write_file           # write designs to file
+ write_lib            # write compiled named library to disk
+ write_link_library   # write link libraries for the instances on the current design
+ write_milkyway       # write milkyway from disk
+ write_multibit_components # write_multibit_components
+ write_parasitics     # write parasitics from a design in a file
+ write_rtl_load       # write_rtl_load
+ write_saif           # writing a backward SAIF file
+ write_scan_def       # write the scan def file
+ write_script         # write constraint script for current design
+ write_sdc            # write constraint script for current design
+ write_sdf            # write sdf
+ write_test           # write test
+ write_test_model     # Write a test model to disk
+ write_test_protocol  # Write a test protocol to disk
+ write_tmax_library   # Writes out tmax library
+
